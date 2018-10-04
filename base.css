@@ -7,6 +7,7 @@ html, body, h1, header, nav, ul, li, a, main, article, h2, section, h3, p, img, 
     vertical-align: baseline;
     background: transparent;
     box-sizing: border-box;
+    -webkit-text-size-adjust: 100%;
 }
 
 /*以下画面サイズが～479pxの場合*/
