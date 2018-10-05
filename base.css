@@ -95,9 +95,35 @@ img {
     padding-bottom: 5%;
 }
 
-/*以下画面サイズが480px～の場合*/
+/*以下画面サイズが480～649pxの場合*/
 
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 480px) and (max-width: 649px) {
+    h1 {
+        font-size: 24px;
+        padding-left: 5px;
+    }
+    .menu a {
+        padding: 0 10px;
+    }
+    .copy-background {
+        height: 700px;
+        font-size: 2.5vw;
+    }
+    h2 {
+        font-size: 86px;
+    }
+    h3 {
+        font-size: 32px;
+    }
+    .img-box {
+        display: flex;
+    }
+}
+
+/*以下画面サイズが650px～の場合*/
+
+@media screen and (min-width: 650px) {
+    
     h1 {
         font-size: 24px;
         padding-left: 5px;
@@ -117,5 +143,5 @@ img {
     }
     .img-box {
         display: flex;
-    }
+    } 
 }
