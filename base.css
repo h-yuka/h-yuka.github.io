@@ -6,7 +6,7 @@ html, body, h1, header, nav, ul, li, a, main, article, h2, section, h3, p, img, 
     font-size: 100%;
     vertical-align: baseline;
     background: transparent;
-    -webkit-text-size-adjust: 100%;
+    box-sizing: border-box;
 }
 
 /*以下画面サイズが～479pxの場合*/
@@ -107,7 +107,7 @@ img {
     }
     .copy-background {
         height: 700px;
-        font-size: 2.5vw;
+        font-size: 3.5vw;
     }
     h2 {
         font-size: 86px;
