@@ -6,7 +6,6 @@ html, body, h1, header, nav, ul, li, a, main, article, h2, section, h3, p, img, 
     font-size: 100%;
     vertical-align: baseline;
     background: transparent;
-    box-sizing: border-box;
     -webkit-text-size-adjust: 100%;
 }
 
